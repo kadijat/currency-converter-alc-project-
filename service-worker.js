@@ -24,8 +24,9 @@ self.addEventListener('activate', event => {
         if (thisCacheName !== cacheName){
             console.log("Service worker removing cached files from", thisCacheName);
             return caches.delete(thisCacheName);        
-        }
-    })))
+        }}
+    ))
+       )
     );
   return self.clients.claim();
 });
