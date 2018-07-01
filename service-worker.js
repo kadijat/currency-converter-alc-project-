@@ -4,7 +4,7 @@ const CachedFiles = [
     './',                
     './scripts/app.js',
     './scripts/jquery-1.9.1.min.js',
-    './css/app.css',
+    './styles.css',
   ];
 
 self.addEventListener('install', event => {
