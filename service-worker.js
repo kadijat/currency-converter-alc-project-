@@ -1,10 +1,11 @@
 const cacheName = 'free-currency-cache';
 
 const CachedFiles = [
-    '/',                
-    '/scripts/app.js',
-    '/scripts/jquery-1.9.1.min.js',
-    '/css/app.css',
+  
+    './',                
+    './currency.js',
+    './jquery-1.9.1.min.js',
+    './currency.css',
 ];
 
 self.addEventListener('install', event => {
